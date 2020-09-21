@@ -21,7 +21,7 @@ html, body {
 header {
   height: 300px;
   width: 100%;
-  background: #e3e3e3;
+  background: #e0ffff;
 }
 
 
@@ -51,7 +51,7 @@ header {
 footer {
   width: 100%;
   height: 30px;
-  background: #e3e3e3;
+  background: #d2691e;
 }
 
 
@@ -60,29 +60,26 @@ footer {
 
 @media (min-width: 768px) {
   header {
-    width: 75%;
-    background-color: ;
-  }
-
-  .col-3 {
-    width: 75%;
+    background-color: #ffebcd;
   }
 
   #column-1 {
+    width: 50%;
     background-color: #deb887;
   }
 
   #column-2 {
+    width: 50%;
     background-color: #556b2f;
   }
 
   #column-3 {
+    width: 100%;
     background-color: #ff8c00;
   }
 
   footer {
-    width: 75%;
-    background-color: ;
+    background-color: #8b0000;
   }
   
 }
@@ -92,28 +89,27 @@ footer {
 @media (min-width: 1200px) {
   header {
     width: 100%;
-    background-color: ;
-  }
-
-  .col-3 {
-    width: 33.33%;
+    background-color: #87cefa;
   }
 
   #column-1 {
+    width: 33.33%;
     background-color: #00ffff;
   }
 
   #column-2 {
+    width: 33.33%;
     background-color: #6495ed;
   }
 
   #column-3 {
+    width: 33.33%;
     background-color: #008b8b;
   }
 
   footer {
     width: 100%;
-    background-color: ;
+    background-color: #4b0082;
   }
    
 }
